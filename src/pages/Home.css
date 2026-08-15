@@ -1,0 +1,93 @@
+.home {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+
+  padding: 60px;
+
+  background-color: rgb(225, 219, 219);
+  
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 650px;
+}
+
+.hero-intro {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: #333;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 64px;
+  line-height: 1.1;
+  color: #222;
+}
+
+.hero-role {
+  margin: 16px 0;
+  font-size: 32px;
+  color: #333;
+}
+
+.hero-description {
+  max-width: 560px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.primary-button {
+  background-color: #333;
+  color: white;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: #333;
+}
+
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  object-fit: cover;
+}
