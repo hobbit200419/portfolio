@@ -1,5 +1,7 @@
 import "./About.css";
 
+const aboutImage = `${import.meta.env.BASE_URL}me.jpg`;
+
 function About() {
   return (
     <section className="about">
@@ -7,7 +9,7 @@ function About() {
 
         <div className="about-image">
           <img
-            src="/me.jpg"
+            src={aboutImage}
             alt="Hardy Chang"
             className="about-photo"
           />

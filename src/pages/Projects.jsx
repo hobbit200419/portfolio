@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "./Projects.css";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 function Projects() {
   const eduGatorImages = [
-    "/edugator/home.png",
-    "/edugator/courses.png",
-    "/edugator/calendar.png",
-    "/edugator/inbox.png",
+    `${baseUrl}edugator/home.png`,
+    `${baseUrl}edugator/courses.png`,
+    `${baseUrl}edugator/calendar.png`,
+    `${baseUrl}edugator/inbox.png`,
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -98,7 +100,7 @@ function Projects() {
         <div className="project-card">
           <div className="project-image">
             <img
-              src="/todo.png"
+              src={`${baseUrl}todo.png`}
               alt="To Do List"
               className="main-image"
             />

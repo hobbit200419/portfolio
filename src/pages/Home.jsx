@@ -1,6 +1,8 @@
 import { Link } from "react-router";
 import "./Home.css";
 
+const profileImage = `${import.meta.env.BASE_URL}me.png`;
+
 function Home() {
   return (
     <section className="home">
@@ -30,7 +32,7 @@ function Home() {
         <div className="hero-image-container">
           <img
             className="hero-image"
-            src="/me.png"
+            src={profileImage}
             alt="Hardy Chang"
           />
         </div>
