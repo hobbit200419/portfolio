@@ -5,6 +5,7 @@ const frontendSkills = [
   "CSS3",
   "JavaScript",
   "React",
+  "Vue",
 ];
 
 const backendSkills = [
@@ -13,12 +14,7 @@ const backendSkills = [
   "MySQL",
 ];
 
-const tools = [
-  "Git",
-  "GitHub",
-  "VS Code",
-  "Figma",
-];
+const programmingLanguages = [ "C", "C++", "Python", ];
 
 function Skills() {
   return (
@@ -52,15 +48,8 @@ function Skills() {
         </div>
 
         {/* Tools */}
-        <h2 className="category-title">Tools</h2>
-
-        <div className="skills-grid">
-          {tools.map((tool) => (
-            <div className="skill-card" key={tool}>
-              {tool}
-            </div>
-          ))}
-        </div>
+        <h2 className="category-title">Programming Languages</h2> 
+        <div className="skills-grid"> {programmingLanguages.map((language) => ( <div className="skill-card" key={language}> {language} </div> ))} </div>
 
       </div>
     </section>

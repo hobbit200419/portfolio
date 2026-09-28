@@ -19,11 +19,12 @@ function About() {
           <h1 className="about-title">About Me</h1>
 
           <p className="about-text">
-            Hello, I'm Hardy Chang. I graduated from San Francisco State University with a degree in Computer Science.
+            Hello, I'm Hardy Chang. I completed a 2+2 program between Feng Chia University in Taiwan and San Francisco State University in the United States,
+            earning a degree in Computer Science.
           </p>
 
           <p className="about-text">
-            I enjoy building modern, responsive, and user-friendly web applications with React.
+            I enjoy building modern, responsive, and user-friendly web applications.
           </p>
 
           <p className="about-text">
