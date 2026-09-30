@@ -9,9 +9,7 @@ const frontendSkills = [
 ];
 
 const backendSkills = [
-  "Node.js",
-  "Express.js",
-  "MySQL",
+  "JavaScript（Node.js、Express）",
 ];
 
 const programmingLanguages = [ "C", "C++", "Python", ];
